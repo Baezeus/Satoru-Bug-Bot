@@ -10,19 +10,19 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "242067712688"
-global.ownername = "Satoru"
+global.ownernomer = "237659958008"
+global.ownername = "𝑬. 𝑱𝒖𝒔𝒕𝒊𝒏🌥️"
 global.ytname = "YT: SatoruTech"
 global.socialm = "GitHub: SatoruTech"
 global.location = "Congo-Brazzaville, Brazzaville, null"
 
-global.ownernumber = '242067712688'  //creator number
-global.ownername = 'SatoruTech' //owner name
+global.ownernumber = '237659958008'  //creator number
+global.ownername = '𝑬. 𝑱𝒖𝒔𝒕𝒊𝒏🌥️' //owner name
 global.botname = 'Satoru-Bug-Bot' //name of the bot
 
 //sticker details
-global.packname = 'Satoru X Bot'
-global.author = 'SatoruTech'
+global.packname = '𝑬. 𝑱𝒖𝒔𝒕𝒊𝒏🌥️'
+global.author = '🍵'
 
 //console view/theme
 global.themeemoji = '🩵'
@@ -41,14 +41,14 @@ global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
-global.autoswview = false //auto view status/story
+global.autoswview = true //auto view status/story
 
 //menu type 
 //v1 is image menu, 
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v1'
+global.typemenu = 'v3'
 
 //text bug
 global.xbugtex = {
@@ -58,11 +58,11 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 
 //reply messages
 global.mess = {
-    done: '𝐃𝐨𝐧𝐞 !',
-    prem: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐮𝐬𝐞𝐫 𝐨𝐧𝐥𝐲',
-    admin: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐚𝐝𝐦𝐢𝐧 𝐨𝐧𝐥𝐲',
-    botAdmin: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐨𝐧𝐥𝐲 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐡𝐞𝐧 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧',
-    owner: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐨𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲',
+    done: '𝙀𝙛𝙛𝙚𝙘𝙩𝙪𝙚𝙧 𝘼𝙫𝙚𝙘 𝙎𝙪𝙘𝙘𝙚̀𝙨👌 !',
+    prem: '𝘾𝙚𝙩𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚 𝙚𝙨𝙩 𝙧𝙚𝙨𝙚𝙧𝙫𝙚́𝙚 𝙖𝙪𝙭 𝙪𝙩𝙞𝙡𝙞𝙨𝙖𝙩𝙚𝙪𝙧𝙨 𝙥𝙧𝙚𝙢𝙞𝙪𝙢🤴',
+    admin: '𝘾𝙚𝙩𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚 𝙚𝙨𝙩 𝙧𝙚𝙨𝙚𝙧𝙫𝙚́𝙚 𝙖𝙪𝙭 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙩𝙚𝙪𝙧👨‍🔧',
+    botAdmin: '𝙋𝙤𝙪𝙧 𝙪𝙩𝙞𝙡𝙞𝙨𝙚𝙧 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚 𝙞𝙡 𝙛𝙖𝙪𝙩 𝙦𝙪𝙚 𝙟𝙚 𝙨𝙤𝙞𝙨 𝙖𝙙𝙢𝙞𝙣😅',
+    owner: '𝘾𝙚𝙩𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙚 𝙖̀ 𝙢𝙤𝙣 𝙘𝙧𝙚́𝙖𝙩𝙚𝙪𝙧👨‍💻',
     group: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩𝐬',
     private: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐩𝐫𝐢𝐯𝐚𝐭𝐞 𝐜𝐡𝐚𝐭𝐬',
     wait: '𝐈𝐧 𝐩𝐫𝐨𝐜𝐞𝐬𝐬...',    
